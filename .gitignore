@@ -1,0 +1,8 @@
+experiment1_data/
+experiment2_data/
+output_directory_uniform
+*.spTree
+*.uml_rec
+*.uTs
+*.nwk
+transfers_file_uniform.txt
