@@ -1,0 +1,6 @@
+[submodule "gene_transfer_script"]
+	path = gene_transfer_script
+	url = https://github.com/SisyphusMountain/gene_transfer_script.git
+[submodule "newick_parser"]
+	path = newick_parser
+	url = https://github.com/SisyphusMountain/newick_parser
