@@ -14,6 +14,7 @@ sapply(sim_dir, function(x){
   # color tips with ghost red
   d[which(d$L_ghost_branch > 0), "color"] = "#ff0000"
   pdf(file = paste("plot_transfer_",x , ".pdf", sep = ""), width = 8, height = 8)
+  png(filename = paste("plot_transfer_", x, ".png", sep = ""), width = 800, height = 800, res = 100)
   plot(d$br_length, d$N_transfers_donor,col = d$color, pch=19 ,
        cex = .8, xlab = "Branch length", ylab = "Sum of inferred transfers")
   lm_big = lm(d$N_transfers_donor ~ d$br_length)
@@ -40,6 +41,7 @@ sapply(sim_dir, function(x){
     ggtree(tree, size = 1, ladderize=FALSE)
   }
   ggsave(filename = paste("plot_plot_",x ,".pdf", sep = ""))
+  ggsave(filename = paste("plot_plot_",x ,".png", sep = ""))
 })
 
 # GNU Ghost
