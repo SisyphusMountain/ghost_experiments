@@ -24,6 +24,9 @@ Python packages:
 - networkx==3.4.2
 - pyvolve==1.1.0
 
+R packages:
+- ape
+- ggtree
 # Run
 ```bash simulate_ghost.sh```
 
