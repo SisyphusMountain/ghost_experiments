@@ -14,3 +14,5 @@ Python packages:
 
 # Run
 ```bash simulate_ghost.sh```
+
+The results are in the pdf files.
