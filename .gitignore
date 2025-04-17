@@ -2,3 +2,8 @@ save.txt
 sim_clade
 sim_no_ghost
 sim_sample
+.RData
+.Rhistory
+cyano/
+.vscode
+cyano.tar.zst
